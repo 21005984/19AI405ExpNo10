@@ -1,14 +1,12 @@
-# ExpNo:10 Implementation of Classical Planning Algorithm
-# Algorithm or Steps Involved:
-<ol>
-  <li>Define the initial state</li>
-  <li>Define the goal state</li>
-  <li>Define the actions</li>
-  <li>Find a <b>plan</b> to reach the goal state</li>
-  <li>Print the plan</li>
-</ol>
+## ExpNo:10 Implementation of Classical Planning Algorithm
+## Algorithm or Steps Involved:
+Define the initial state
+  Define the goal state
+  Define the actions
+  Find a plan to reach the goal state
+  Print the plan
 
-# Example - 1
+## Example - 1
 ```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
@@ -21,7 +19,7 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-# Output:
+## Output:
 ```
 ['move_A_to_B']
 ```
@@ -45,7 +43,7 @@ print(plan)
 ```
 
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
-<h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
+You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.
 # Program
 ~~~
 def is_goal_state(current_state, goal_state):
